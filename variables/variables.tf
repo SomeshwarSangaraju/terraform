@@ -1,10 +1,10 @@
 variable "aws_instance" {
-  type = String
+  type = string
   default = "ami-09c813fb71547fc4f"
 }
 
 variable "instance_type" {
-  type = String
+  type = string
   default = "t3.micro"
 }
 

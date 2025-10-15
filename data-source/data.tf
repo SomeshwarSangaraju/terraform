@@ -20,7 +20,7 @@ data "aws_ami" "devops" {
 
 
 output "ami_id" {
-    value = data.aws_ami.joindevops.id
+    value = data.aws_ami.devops.id
 }
 
 data "aws_instance" "mongodb" {

@@ -1,5 +1,5 @@
 variable "ec2_instance"{
-    default = ["mongodb","redis","frontend"]
+    default = ["mongodb","frontend"]
 }
 
 variable "zone_id" {

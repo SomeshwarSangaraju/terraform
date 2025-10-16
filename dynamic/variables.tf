@@ -6,9 +6,6 @@ variable "environment" {
   default = "dev"
 }
 
-# variable "common_name" {
-#   default = "${var.project}-${var.environment}"
-# }
 
 variable "common_tags" {
     type = map

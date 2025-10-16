@@ -1,4 +1,4 @@
-resource "aws_security_group" "allow_all" {
+resource "aws_security_group" "roboshop-allow_all" {
   name   = "roboshop-dev-allow-all"
 
   egress {
